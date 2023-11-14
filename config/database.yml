@@ -1,0 +1,8 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: rodolfo
+  password: rodolfo
+development:
+  <<: *default
+  database: roudasflix_development
